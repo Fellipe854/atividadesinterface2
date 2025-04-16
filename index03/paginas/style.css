@@ -1,0 +1,11 @@
+body {
+    background-image: url(../imagem/3d-rendering-modern-loft-gym-fitness.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}.grupo-formulario {
+    background-color: rgba(255, 255, 255, 0.9); 
+    padding: 20px;
+    border-radius: 10px;
+
+}
