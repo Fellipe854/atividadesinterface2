@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login - Iron Body Gym</title>
+  <link rel="stylesheet" href="../style.css">
+  <link rel="icon" href="../imagem/logo/" type="image/png">
+</head>
+<body>
+  <header id="top-header">
+    <img src="../imagem/logo/LOGO ACADEMIA .png" alt="Logo Iron Body" class="logo">
+    <h1>Iron Body Gym</h1>
+    <nav class="top-nav">
+      <a href="cadastro.html">Cadastrar</a>
+    </nav>
+  </header>
+
+  <section class="login-form">
+    <div class="form-container">
+      <h2>Login</h2>
+      <form action="processar_login.php" method="POST">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="senha">Senha</label>
+        <input type="password" id="senha" name="senha" required>
+
+        <button type="submit">Entrar</button>
+      </form>
+      <div class="links">
+        <a href="#">Esqueceu a senha?</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Iron Body Gym - Todos os direitos reservados</p>
+  </footer>
+</body>
+</html>
